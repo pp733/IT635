@@ -60,4 +60,4 @@ ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'it635';
 CREATE USER 'steve'@'%' IDENTIFIED BY 'it635';
 GRANT SELECT ON doctoroffice.patient_info TO 'steve'@'%';
 GRANT INSERT ON doctoroffice.patient_info TO 'steve'@'%';
-/*FLUSH PRIVILEGES;*/
+FLUSH PRIVILEGES;
