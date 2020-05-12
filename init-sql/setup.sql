@@ -45,16 +45,16 @@ VALUES
 INSERT INTO patient_info (id, name, phone, age, anyallergies, appointment) 
 VALUES
     (0, "Emily Gao", "7324558765", "45", "NO", "2020-05-20"),
-    (1, "Abe Johnson", "7235555555", "32", "NO", "2020-05-20"),
-    (2, "Abe Johnson", "7235555555", "32", "NO", "2020-05-20"),
-    (3, "Abe Johnson", "7235555555", "32", "NO", "2020-05-20"),
-    (4, "Abe Johnson", "7235555555", "32", "NO", "2020-05-20"),
-    (5, "Abe Johnson", "7235555555", "32", "NO", "2020-05-20"),
-    (6, "Abe Johnson", "7235555555", "32", "NO", "2020-05-20"),
-    (7, "Om", "Patel", "25", "NO", "2020-05-20"),
-    (8, "Kie Nguyen", "6095555555", "22", "NO", "2020-05-21"),
+    (1, "John Hopkins", "7233456789", "37", "NO", "2020-05-20"),
+    (2, "Kate Daddario", "9082225456", "32", "YES", "2020-05-20"),
+    (3, "Angelina Williams", "1567892345", "23", "NO", "2020-05-20"),
+    (4, "Elizabeth Smith", "4445556666", "27", "NO", "2020-05-20"),
+    (5, "Tim Halpert", "7233456755", "11", "YES", "2020-05-20"),
+    (6, "Abe Johnson", "9073452345", "56", "NO", "2020-05-20"),
+    (7, "Om Patel", "9073452345", "25", "NO", "2020-05-20"),
+    (8, "Kie Nguyen", "6095555555", "22", "YES", "2020-05-21"),
     (9, "Curtis Mayfield", "2125555555", "30", "NO", "2020-05-21"),
-    (10, "Abe Johnson", "7235555555", "32", "NO", "2020-05-20");
+    (10, "Lionel Richie", "7235555555", "32", "NO", "2020-05-20");
 
 ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'it635';
 CREATE USER 'steve'@'%' IDENTIFIED BY 'it635';
